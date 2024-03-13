@@ -27,6 +27,9 @@ scissors = '''
 '''
 
 print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+print("Rock------->1")
+print("Paper------>2")
+print("Scissor---->3")
 arr=["rock","paper","scissors"]
 user=int(input())
 rand=random.randint(0,2)
